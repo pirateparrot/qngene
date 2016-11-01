@@ -1,6 +1,6 @@
 How to execute the scripts in "Export_gen_files"
 -----------------------
-gentotsv.py
+gentotsv.py (Converts .gen and .sample into tsv) 
 -----------------------
 python gentotsv.py -> (it takes the default sourcedir, destinationdir and sample file from config.py)
 
@@ -9,7 +9,7 @@ or
 gentotsv.py  -h<help> -t<threads> -s<sourcedir> -d<destinationdir> -f<samplefile> -> (all the parameters are optionals)
 
 ------------------------
-export.py
+export.py (Generates individuals, visits, genotypes and phenotypes files from Advance, dbSNP and .gen/.sample data sources. Flag "import_genotypes_flag" to Y takes only individuals from Advance DB with imputed genotypes (from .sample file) and genotypes from .gen files. Flag "import_genotypes_flag" to N takes all the invidivuals and gentoypes from Advance DB). 
 ------------------------
 python export.py {destination_des_tsv} {ip_postgresql_server} {schema_postgresql} {owner_schema_postresql} {password_owner_schema}{import_genotypes_flag}
 
