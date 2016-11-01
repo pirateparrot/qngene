@@ -1,11 +1,13 @@
+How to execute the scripts
+
 -----------------------
 gentotsv.py
 -----------------------
-python gentotsv.py
+python gentotsv.py -> (it takes the default sourcedir, destinationdir and sample file from config.py)
 
 or
 
-gentotsv.py  -h<help> -t<threads> -s<sourcedir> -d<destinationdir> -f<samplefile>
+gentotsv.py  -h<help> -t<threads> -s<sourcedir> -d<destinationdir> -f<samplefile> -> (all the parameters are optionals)
 
 ------------------------
 export.py
