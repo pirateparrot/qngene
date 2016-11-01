@@ -6,7 +6,7 @@ python gentotsv.py -> (it takes the default sourcedir, destinationdir and sample
 
 or
 
-gentotsv.py  -h<help> -t<threads> -s<sourcedir> -d<destinationdir> -f<samplefile> -> (all the parameters are optionals)
+gentotsv.py  -h[help] -t[threads] -s[sourcedir] -d[destinationdir] -f[samplefile] -> (all the parameters are optionals)
 
 ------------------------
 export.py (Generates individuals, visits, genotypes and phenotypes files from Advance, dbSNP and .gen/.sample data sources)
